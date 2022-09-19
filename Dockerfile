@@ -2,6 +2,6 @@ FROM node:slim
 
 COPY . .
 
-RUN npm install --production && npx playwright install
+RUN npm install --production
 
 ENTRYPOINT ["node", "/lib/main.js"]
