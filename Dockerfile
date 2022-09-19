@@ -2,7 +2,7 @@ FROM node:slim
 
 COPY . .
 
-RUN npm install -g artillery artillery-engine-playwright
+RUN npm install --production
 
 FROM mcr.microsoft.com/playwright:v1.25.1
 
