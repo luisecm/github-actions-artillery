@@ -24,7 +24,8 @@
   "homepage": "https://github.com/kenju/github-actions-artillery#readme",
   "dependencies": {
     "@actions/core": "^1.0.0",
-    "artillery": "^1.6.0-29"
+    "artillery": "^1.6.0-29",
+    "artillery-engine-playwright": "^0.1.0"
   },
   "devDependencies": {
     "@types/node": "^12.0.4",
