@@ -24,7 +24,10 @@
   "homepage": "https://github.com/kenju/github-actions-artillery#readme",
   "dependencies": {
     "@actions/core": "^1.0.0",
-    "@playwright/test": "1.19.2",
+    "playwright-core": "^1.25.2",
+    "playwright-chromium": "^1.25.2",
+    "playwright-webkit": "^1.25.2",
+    "playwright-firefox": "^1.25.2",
     "artillery": "^1.6.0-29",
     "artillery-engine-playwright": "^0.2.0"
   },
